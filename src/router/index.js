@@ -37,6 +37,26 @@ const routes = [
     name: "Gun",
     component: page("Gun.vue"),
   },
+  {
+    path: "/bankruptcy",
+    name: "Bankruptcy",
+    component: page("Bankruptcy.vue"),
+  },
+  {
+    path: "/real-estate",
+    name: "RealEstate",
+    component: page("RealEstate.vue"),
+  },
+  {
+    path: "/veterans",
+    name: "Veterans",
+    component: page("Veterans.vue"),
+  },
+  {
+    path: "/tax",
+    name: "Tax",
+    component: page("Tax.vue"),
+  },
 ];
 
 const router = new VueRouter({

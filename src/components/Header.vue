@@ -107,39 +107,31 @@
       </div>
     </div>
     <div v-if="$route.path === '/'" id="home" class="header__slider relative">
-      <splide
-        type="fade"
-        :options="{ rewind: true, height: 700 }"
-        :isCarousel="true"
-      >
-        <splide-slide>
-          <div class="img-box absolute w-100 h-100"></div>
-          <div class="absolute w-100 h-100 gradient-box"></div>
-        </splide-slide>
-        <splide-slide>
-          <div class="img-box-1 absolute w-100 h-100"></div>
-          <img src="../assets/images/slider-images/slider-1.svg" alt="" />
-          <div class="absolute w-100 h-100 gradient-box"></div>
-        </splide-slide>
-        <splide-slide>
-          <div class="img-box-2 absolute w-100 h-100"></div>
-          <img src="../assets/images/slider-images/slider-2.svg" alt="" />
-          <div class="absolute w-100 h-100 gradient-box"></div>
-        </splide-slide>
-      </splide>
-      <div class="header__slider-box absolute">
-        <div class="header__slider-box-title font-7">
-          <span>Guest Law Office</span>
-        </div>
-        <div class="header__slider-box-subtitle font-7">
-          <span>Northern Kentucky</span>
-        </div>
-        <div>
-          <button class="header__slider-box-btn cursor-pointer mt-7 font-7">
-            Learn More
-          </button>
-        </div>
-      </div>
+        <splide
+          type="fade"
+          :options="{ rewind: true, height: 700 }"
+          :isCarousel="true"     
+        >
+          <splide-slide v-for="(item, index) of splideItems" :key="index">
+            <div class="img-box-1 absolute w-100 h-100"></div>
+            <img :src="item.src" alt="" />
+            <div class="absolute w-100 h-100 gradient-box"></div>
+              <div class="header__slider-box absolute">
+              <div class="header__slider-box-title font-7">
+                <span>GUEST LAW OFFICE</span>
+              </div>
+              <div class="header__slider-box-subtitle font-7">
+                <span>{{item.text}}</span>
+              </div>
+              <div>
+                <button class="header__slider-box-btn cursor-pointer mt-7 font-7">
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </splide-slide>
+
+        </splide>
     </div>
     <div
       class="relative header__slider estate"
@@ -200,6 +192,46 @@
         >
       </div>
     </div>
+    <div
+      class="relative header__slider"
+      v-else-if="$route.path === '/bankruptcy'"
+      id="/bankruptcy"
+    >
+      <div class="absolute w-100 h-100 gradient-box-1 bankruptcy"></div>
+      <div class="absolute slider-text-box mr-5 font-7">
+        <span>Consumer Bankruptcy Law</span>
+      </div>
+    </div>
+    <div
+      class="relative header__slider"
+      v-else-if="$route.path === '/real-estate'"
+      id="/real-estate"
+    >
+      <div class="absolute w-100 h-100 gradient-box-1 real-estate"></div>
+      <div class="absolute slider-text-box mr-5 font-7">
+        <span>Real Estate Law</span>
+      </div>
+    </div>
+    <div
+      class="relative header__slider"
+      v-else-if="$route.path === '/veterans'"
+      id="/veterans"
+    >
+      <div class="absolute w-100 h-100 gradient-box-1 veterans"></div>
+      <div class="absolute slider-text-box mr-5 font-7">
+        <span>Veterans Law </span>
+      </div>
+    </div>
+    <div
+      class="relative header__slider"
+      v-else-if="$route.path === '/tax'"
+      id="/tax"
+    >
+      <div class="absolute w-100 h-100 gradient-box-1 tax"></div>
+      <div class="absolute slider-text-box mr-5 font-7">
+        <span>IRS Tax Audits</span>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -223,6 +255,21 @@ const MENU_ITEMS = [
   },
 ];
 
+const SPLIDE_ITEMS = [
+  {
+    src: require("../assets/images/slider-images/slider.svg"),
+    text: "Louisville",
+  },
+  {
+    src: require("../assets/images/slider-images/slider-1.svg"),
+    text: "Northern Kentucky",
+  },
+  {
+    src: require("../assets/images/slider-images/slider-2.svg"),
+    text: "Lexington Kentucky",
+  },
+];
+
 import { Splide, SplideSlide } from "@splidejs/vue-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 
@@ -230,6 +277,7 @@ export default {
   data() {
     return {
       menuItems: MENU_ITEMS,
+      splideItems: SPLIDE_ITEMS,
       isDesktop: true,
       showMenu: false,
     };
@@ -374,7 +422,7 @@ export default {
   z-index: 10000;
 }
 .img-box {
-  background-image: url("../assets/images/slider-images/slider.svg");
+  // background-image: url("../assets/images/slider-images/slider.svg");
   background-size: cover;
 }
 .responsive-item {
@@ -394,6 +442,19 @@ export default {
 }
 .gun {
   background-image: url("../assets/images/guns.svg");
+}
+.bankruptcy {
+  background-image: url("../assets/images/bankruptcy.png");
+}
+.real-estate {
+  background-image: url("../assets/images/real-estate.png");
+}
+.veterans {
+  background-image: url("../assets/images/veterans.svg");
+  background-size: contain;
+}
+.tax {
+  background-image: url("../assets/images/tax.png");
 }
 .estate,
 .elder,

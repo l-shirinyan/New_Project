@@ -15,7 +15,7 @@
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          <img width="290px" height="280px" :src="item.img" alt="" />
+          <img width="290px" height="280px" :src="item.img" class="practice__img" alt="" />
           <div class="opacity-box cursor-pointer">
             <div class="practice__body-item-descrb font-6 cursor-pointer">
               <div
@@ -86,7 +86,31 @@ const ITEMS = [
     iconWidth: 28,
     iconHeight: 51,
     img: require("../assets/images/practice-6.svg"),
-    path: "/",
+    path: "/bankruptcy",
+  },
+    {
+    title: "Real Estate Law",
+    icon: require("../assets/images/icons/real-estate.svg"),
+    iconWidth: 50,
+    iconHeight: 51,
+    img: require("../assets/images/practice-7.jpg"),
+    path: "/real-estate",
+  },
+    {
+    title: "Veterans Law ",
+    icon: require("../assets/images/icons/veterans.svg"),
+    iconWidth: 50,
+    iconHeight: 51,
+    img: require("../assets/images/practice-8.jpg"),
+    path: "/veterans",
+  },
+    {
+    title: "IRS Tax Audits",
+    icon: require("../assets/images/icons/tax.svg"),
+    iconWidth: 50,
+    iconHeight: 51,
+    img: require("../assets/images/practice-9.jpg"),
+    path: "/tax",
   },
 ];
 
@@ -159,6 +183,9 @@ export default {
     font-size: 14px;
     color: #fff;
     line-height: 1.38;
+  }
+  &__img {
+    border-radius: 10px;
   }
 }
 .opacity-box {
