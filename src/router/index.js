@@ -57,6 +57,11 @@ const routes = [
     name: "Tax",
     component: page("Tax.vue"),
   },
+  {
+    path: "/locations",
+    name: "Locations",
+    component: page("Locations.vue"),
+  },
 ];
 
 const router = new VueRouter({

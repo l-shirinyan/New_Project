@@ -109,7 +109,7 @@ const ITEMS = [
     icon: require("../assets/images/icons/tax.svg"),
     iconWidth: 50,
     iconHeight: 51,
-    img: require("../assets/images/practice-9.jpg"),
+    img: require("../assets/images/practice-9.svg"),
     path: "/tax",
   },
 ];

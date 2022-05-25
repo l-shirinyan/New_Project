@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1409.662" height="687.55" viewBox="0 0 1409.662 687.55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #f5c119;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-4 {
+        fill: #f5c119;
+        font-size: 16px;
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+        letter-spacing: 0.045em;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        filter: url(#Эллипс_272-3);
+      }
+
+      .cls-8 {
+        filter: url(#Эллипс_272-2);
+      }
+
+      .cls-9 {
+        filter: url(#Эллипс_272);
+      }
+
+      .cls-10 {
+        filter: url(#_9267_преобразованный_);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.405" y1="0.185" x2="0.526" y2="1.035" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3358ac"/>
+      <stop offset="0.711" stop-color="#193d7b"/>
+      <stop offset="1" stop-color="#042b56"/>
+    </linearGradient>
+    <filter id="_9267_преобразованный_" x="0" y="0" width="1409.662" height="687.55" filterUnits="userSpaceOnUse">
+      <feOffset dx="26" dy="26" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Эллипс_272" x="862.947" y="209" width="96" height="96" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#fffff3" flood-opacity="0.839"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9e6a7"/>
+      <stop offset="1" stop-color="#ffc300"/>
+    </radialGradient>
+    <filter id="Эллипс_272-2" x="825.947" y="20" width="96" height="96" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-color="#fffff3" flood-opacity="0.839"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Эллипс_272-3" x="625.947" y="188" width="96" height="96" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-color="#fffff3" flood-opacity="0.839"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_842" data-name="Сгруппировать 842" transform="translate(-263.053 -378)">
+    <g class="cls-10" transform="matrix(1, 0, 0, 1, 263.05, 378)">
+      <path id="_9267_преобразованный_2" data-name="9267 [преобразованный]" class="cls-1" d="M806.08,617.825c13.137,16.05,36.269-2.113,46.036,17.135a7.711,7.711,0,0,0,4.854-1.2c36.669-25.76,43.98-25.017,85.675,9.253a20.45,20.45,0,0,0,5.369,2.342c11.423-7.825,8.682-26.9,26.273-31.071,13.251-3.141,22.847-14.793,36.5,4.17,11.766,16.221,35.812,8,39.981-12.851,2.684-13.08,13.936-19.305,17.135-30.843,8.339,3.427,20.9-26.9,27.244,5.712,3.6,18.277,27.93,20.562,44.894,20.9s18.963-15.364,20.048-29.244c1.371-18.392,11.423-25.417,28.558-35.012,23.76-13.365,35.07-44.608,57.116-63.342-13.936-48.435,10.224-37.468,42.209-32.613,19.591,2.97,44.608-12.28,62.828-25.245,11.423-8-6.8-23.989-4.855-38.953,1.2-8.682-2.856-16.678,6.454-23.532s17.934-9.081,26.9,1.085a14.05,14.05,0,0,0,15.936,2.97c26.5-9.6,41.466,6.454,49.691,26.73,11.423,27.93,24.5,47.521,59.287,41.981,13.365-2.113,20.276,12.051,28.958,20.562,9.653,9.481,18.563,19.191,32.5,3.141s30.272-2.684,40.609,4.741c19.134,13.765,33.3,10.281,49.12-3.2,24.96-21.19,27.359-20.562,43.18,9.653a38.1,38.1,0,0,0,16.507,14.85c29.815,17.763,39.011,41.695,29.016,74.251-2.171,7.082-7.368,14.051-2.113,21.476,28.558,39.982,41.409,90.7,83.561,121.715,7.14,5.255,15.821,5.426,24.446,12.223-22.047,22.847-43.865,46.036-71.224,59.058-36.611,17.42-57.8,48.206-85.1,74.765s-64.37,42.266-102.352,56.145c-82.191,30.043-165.009,12.737-246.8,10.281-159.355-4.741-318.595-9.481-478.007-6.854-22.847.4-45.122.343-67.4-6.226-11.423-3.427-23.417-2.8-16.678,16.507,7.082,20.276-4.8,23.532-22.275,23.36-65.512-.685-130.968,0-196.48-.457-7.082,0-16.792,3.827-20.562-3.941a22.846,22.846,0,0,1,3.027-18.563c7.539-11.88,11.994,1.314,17.649,3.713,9.082,3.77,12.166-2.228,14.85-8.4,11.88-27.073,17.82-55.4,8-83.961-6.511-18.963,6.8-28.558,15.25-39.582s21.3-11.423,33.7-5.2c16.221,7.825,32.271,15.936,48.377,23.989,7.425,3.712,14.793,10.509,22.847,2.285,6.911-6.911,6.111-15.193,3.084-23.818-14.907-42.552-12.566-47.121,34.27-56.488,20.79-4.112,38.782-4.341,20.562-34.27-11.423-18.506,12.679-38.211,21.818-39.182C810.421,646.383,805.223,633.475,806.08,617.825Z" transform="translate(-517.33 -322.59)"/>
+    </g>
+    <g id="Сгруппировать_813" data-name="Сгруппировать 813" transform="translate(232 39)">
+      <g class="cls-9" transform="matrix(1, 0, 0, 1, 31.05, 339)">
+        <g id="Эллипс_272-4" data-name="Эллипс 272" class="cls-2" transform="translate(877.95 224)">
+          <circle class="cls-5" cx="33" cy="33" r="33"/>
+          <circle class="cls-6" cx="33" cy="33" r="32"/>
+        </g>
+      </g>
+      <circle id="Эллипс_270" data-name="Эллипс 270" class="cls-3" cx="17.5" cy="17.5" r="17.5" transform="translate(925 579)"/>
+    </g>
+    <g id="Сгруппировать_816" data-name="Сгруппировать 816" transform="translate(195 -150)">
+      <g class="cls-8" transform="matrix(1, 0, 0, 1, 68.05, 528)">
+        <g id="Эллипс_272-5" data-name="Эллипс 272" class="cls-2" transform="translate(840.95 35)">
+          <circle class="cls-5" cx="33" cy="33" r="33"/>
+          <circle class="cls-6" cx="33" cy="33" r="32"/>
+        </g>
+      </g>
+      <circle id="Эллипс_270-2" data-name="Эллипс 270" class="cls-3" cx="17.5" cy="17.5" r="17.5" transform="translate(925 579)"/>
+    </g>
+    <g id="Сгруппировать_815" data-name="Сгруппировать 815" transform="translate(-5 18)">
+      <g class="cls-7" transform="matrix(1, 0, 0, 1, 268.05, 360)">
+        <g id="Эллипс_272-6" data-name="Эллипс 272" class="cls-2" transform="translate(640.95 203)">
+          <circle class="cls-5" cx="33" cy="33" r="33"/>
+          <circle class="cls-6" cx="33" cy="33" r="32"/>
+        </g>
+      </g>
+      <circle id="Эллипс_270-3" data-name="Эллипс 270" class="cls-3" cx="17.5" cy="17.5" r="17.5" transform="translate(925 579)"/>
+    </g>
+    <text id="LONDON" class="cls-4" transform="translate(1125 701)"><tspan x="0" y="0">LEXINGTON</tspan></text>
+    <text id="LONDON-2" data-name="LONDON" class="cls-4" transform="translate(889 679)"><tspan x="0" y="0">LOUISVILLE</tspan></text>
+    <text id="LONDON-3" data-name="LONDON" class="cls-4" transform="translate(1094 508)"><tspan x="0" y="0">FLORENCE</tspan></text>
+  </g>
+</svg>

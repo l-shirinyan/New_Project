@@ -22,6 +22,14 @@
               {{ item.name }}
             </span>
           </a>
+          <a
+            class="header__menu-item cursor-pointer font-6 px-4"
+            @click="changeWithScroll"
+          >
+            <span>
+              Locations
+            </span>
+          </a>
         </div>
         <a
           href="tel:(859) 227-0972"
@@ -232,6 +240,15 @@
         <span>IRS Tax Audits</span>
       </div>
     </div>
+    <div
+      class="relative header__slider-locations"
+      v-else-if="$route.path === '/locations'"
+      id="/locations"
+    >
+      <div class="absolute w-100 h-100 gradient-box-1 locations"></div>
+      <div class="absolute slider-text-box mr-5 font-7">
+      </div>
+    </div>
   </div>
 </template>
 
@@ -248,10 +265,6 @@ const MENU_ITEMS = [
   {
     name: "Practice Areas",
     hash: "practice-areas",
-  },
-  {
-    name: "Locations",
-    hash: "locations",
   },
 ];
 
@@ -298,8 +311,16 @@ export default {
     },
     changePage(hash) {
       this.showMenu = false;
-      if (this.$route.hash !== `#${hash}`) {
+      if (this.$route.hash === `#locations`) {
+       [{ path: '/#locations', redirect: { name: 'locations' } }]
+      }
+      else if (this.$route.hash !== `#${hash}`) {
         this.$router.push(`/#${hash}`);
+      }
+    },
+    changeWithScroll() {
+      if (this.$route.path !== '/locations') {
+        this.$router.push('/locations');
       }
     },
     goToHome() {
@@ -369,6 +390,10 @@ export default {
     padding-top: 60px;
     overflow: hidden;
   }
+  &__slider-locations {
+    height: 1120px;
+    overflow: hidden; 
+  }
   &__slider-box {
     z-index: 10000;
     top: 220px;
@@ -421,10 +446,6 @@ export default {
   top: 100;
   z-index: 10000;
 }
-.img-box {
-  // background-image: url("../assets/images/slider-images/slider.svg");
-  background-size: cover;
-}
 .responsive-item {
   border-right: 0 !important;
 }
@@ -451,10 +472,12 @@ export default {
 }
 .veterans {
   background-image: url("../assets/images/veterans.svg");
-  background-size: contain;
 }
 .tax {
   background-image: url("../assets/images/tax.png");
+}
+.locations {
+  background-color: rgba(211, 211, 211, 0.3);
 }
 .estate,
 .elder,
@@ -517,6 +540,11 @@ export default {
 @media only screen and (max-width: 1180px) {
   .header {
     padding: 0 30px 0 20px;
+
+    &__slider-locations {
+      height: 1000px;
+      overflow: hidden; 
+    }
     &__slider-box {
       top: 290px;
       left: 80px;
@@ -530,6 +558,10 @@ export default {
 }
 @media only screen and (max-width: 890px) {
   .header {
+    &__slider-locations {
+      height: 850px;
+      overflow: hidden; 
+    }
     &__menu {
       display: none !important;
     }
@@ -543,6 +575,10 @@ export default {
 }
 @media only screen and (max-width: 565px) {
   .header {
+    &__slider-locations {
+      height: 700px;
+      overflow: hidden; 
+    }
     &__menu {
       display: none !important;
     }
