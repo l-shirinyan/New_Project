@@ -44,34 +44,60 @@
           shocking differences.
         </span>
       </div>
-      <div class="gun__text font-6 mt-9">
-        <span>Our Business Attorneys can assist you with:</span>
+      <div class="gun__text mt-8">
+        <span>
+          Operating a business in the firearms industry begins with a Federal Firearms License (or an “FFL”). 
+          Our expert attorneys can provide FFL license and Legal Services to get you started. Beyond the FFL,
+          we assist firearm licensees with their broader NFA / SOT and Import / Export licensing needs. 
+          We can create your own personalized Gun Trust and facilitate the transfer of weapons into that trust.
+        </span>
       </div>
-      <div class="gun__list">
-        <ul class="ml-7 mt-6">
-          <li class="gun__text mb-1" v-for="(item, i) in items" :key="i">
-            {{ item }}
-          </li>
-        </ul>
+      <div class="gun__text mt-4">
+        <span>
+          We can guide businesses through the process of obtaining FFL licenses to begin firearm operations, 
+          and subsequent licenses and permits necessary to expand their manufacturing operations or sales reach.
+        </span>
+      </div>
+      <div class="gun__text mt-4">
+        <span>
+          We understand that for some your FFL is your livelihood - we help protect your operation and stay compliant.
+          Our service is simple, yet powerful and is designed to teach, guide, audit and monitor your FFL throughout the year.
+        </span>
+      </div>
+      <div class="gun__text mt-4">
+        <span>
+          Mastering firearm laws can be a challenge, especially when buying, shipping and selling across state line.
+          We can help limit your risk and provide easy and affordable access to firearm legal services.
+        </span>
+      </div>
+      <div class="gun__text mt-4">
+        <span>
+          We help firearm business owners get licensed, apply for ATF variances, understand ATF recording keeping 
+          and pass ATF inspections. Speak with usy regarding FFL formation through closure matters.
+        </span>
+      </div>
+      <div class="gun__text mt-8">
+        <span class="font-6">Firearm Retail / Range -</span>
+        <span>
+          We help retail and range operators understand laws related to GCA / NFA firearm transfers. 
+          We’re experts in 4473 forms, NFA forms, FBI NICS background checks and state laws.
+        </span>
+      </div>
+      <div class="gun__text mt-8">
+        <span class="font-6">Firearm Manufacturing -</span>
+        <span>
+          We help manufacturers understand aspects of the law beginning with subcontracting, product marketing
+          and classification, manufacturing, state registration and the sale and distribution across the globe.
+        </span>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-const ITEMS = [
-  "Formations",
-  "Contracts",
-  "Consulting",
-  "Reorganization",
-  "Trademark",
-  "Franchising Law",
-];
 export default {
   data() {
-    return {
-      items: ITEMS,
-    };
+    return {};
   },
 };
 </script>

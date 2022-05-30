@@ -79,7 +79,6 @@ export default {
     transform: translate(-50%, -50%);
     z-index: 199999; 
 
-
     span {
         font-size: 35px;
         font-weight: bold;

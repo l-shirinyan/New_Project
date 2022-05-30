@@ -24,7 +24,7 @@
           </a>
           <a
             class="header__menu-item cursor-pointer font-6 px-4"
-            @click="changeWithScroll"
+            @click="goToLocations"
           >
             <span>
               Locations
@@ -92,7 +92,13 @@
                   </span>
                 </a>
               </div>
-              <div class="divider"></div>
+              <a class="header__menu-item responsive-item cursor-pointer font-6 px-4"
+                  @click="goToLocations">
+                <span>
+                  Locations
+                </span>
+              </a>
+              <div class="divider mt-4"></div>
               <a
                 style="text-decoration: none"
                 href="tel:(859) 227-0972"
@@ -116,9 +122,9 @@
     </div>
     <div v-if="$route.path === '/'" id="home" class="header__slider relative">
         <splide
-          type="fade"
           :options="{ rewind: true, height: 700 }"
-          :isCarousel="true"     
+          :isCarousel="true"  
+          data-splide='{"type":"loop"}'   
         >
           <splide-slide v-for="(item, index) of splideItems" :key="index">
             <div class="img-box-1 absolute w-100 h-100"></div>
@@ -275,11 +281,11 @@ const SPLIDE_ITEMS = [
   },
   {
     src: require("../assets/images/slider-images/slider-1.svg"),
-    text: "Northern Kentucky",
+    text: "Lexington Kentucky",
   },
   {
     src: require("../assets/images/slider-images/slider-2.svg"),
-    text: "Lexington Kentucky",
+    text: "Northern Kentucky",
   },
 ];
 
@@ -311,14 +317,12 @@ export default {
     },
     changePage(hash) {
       this.showMenu = false;
-      if (this.$route.hash === `#locations`) {
-       [{ path: '/#locations', redirect: { name: 'locations' } }]
-      }
-      else if (this.$route.hash !== `#${hash}`) {
+      if (this.$route.hash !== `#${hash}`) {
         this.$router.push(`/#${hash}`);
       }
     },
-    changeWithScroll() {
+    goToLocations() {
+      this.showMenu = false;
       if (this.$route.path !== '/locations') {
         this.$router.push('/locations');
       }

@@ -35,30 +35,38 @@
               </div>
             </div>
           </div>
-          <div class="footer__locations-section d-flex justify-between pt-2">
-            <div
-              v-for="(location, i) in locations"
-              :key="i"
-              class="footer__locations-item ml-7"
-            >
+          <div class="pt-2">
+            <div class="footer__locations-section d-flex justify-between">
               <div
-                class="footer__locations-item-title font-7"
-                :class="{ 'hidden-title': i === 2 }"
+                v-for="(location, i) in locations"
+                :key="i"
+                class="footer__locations-item ml-7"
               >
-                <span> {{ location.title }} </span>
-              </div>
-              <div
-                :class="{ 'footer__locations-item-content': i !== 3 }"
-                class="mt-4 pr-7"
-              >
-                <div class="footer__locations-item-text">
-                  {{ location.text1 }}
+                <div
+                  class="footer__locations-item-title font-7"
+                  :class="{ 'hidden-title': i === 2 }"
+                >
+                  <span> {{ location.title }} </span>
                 </div>
-                <div class="footer__locations-item-text pt-4">
-                  {{ location.text2 }}
+                <div
+                  :class="{ 'footer__locations-item-content': i !== 3 }"
+                  class="mt-4 pr-7"
+                >
+                  <div class="footer__locations-item-text">
+                    {{ location.text1 }}
+                  </div>
+                  <div class="footer__locations-item-text pt-4">
+                    {{ location.text2 }}
+                  </div>
                 </div>
-              </div>
+              </div>              
             </div>
+            <div class="footer__locations-item-text d-flex justify-end mt-14 mr-1">
+              <a href="mailto: GuestLaw@outlook.com"
+                 style="color: white; text-decoration: none">
+                GuestLaw@outlook.com
+              </a>
+            </div>            
           </div>
         </div>
         <div class="footer__divider w-100"></div>
