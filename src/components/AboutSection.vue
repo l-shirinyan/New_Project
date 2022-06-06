@@ -1,6 +1,35 @@
 <template>
   <div id="about-us" class="about">
     <div class="about__section">
+      <div class="contact-box d-flex justify-between pb-8 px-3">
+        <a class="call-box d-flex align-i-center" href="tel:(859) 227-0972">
+          <img
+            class="mt-1"
+            width="60px"
+            height="60px"
+            src="../assets/images/icons/phone-call.svg"
+            alt=""
+          />
+          <div class="call-box__number pl-7 font-6">
+            <span>(859) 227-0972</span>
+          </div>
+        </a>
+        <a
+          class="call-box d-flex align-i-center"
+          href="mailto: GuestLaw@outlook.com"
+        >
+          <img
+            class="mt-1"
+            width="60px"
+            height="60px"
+            src="../assets/images/icons/email-send.svg"
+            alt=""
+          />
+          <div class="call-box__number pl-7 font-6">
+            <span>GuestLaw@outlook.com</span>
+          </div>
+        </a>
+      </div>
       <div class="about__title text-align-center font-7">
         <span>About Us</span>
       </div>
@@ -164,6 +193,21 @@ export default {
 }
 .margin-box {
   margin-top: 150px;
+}
+.call-box {
+  text-decoration: none;
+  &__number {
+    font-size: 20px;
+    color: $blue !important;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .contact-box {
+    display: block !important;
+  }
+  .call-box:last-child {
+    margin-top: 20px;
+  }
 }
 @media only screen and (max-width: 990px) {
   .about {

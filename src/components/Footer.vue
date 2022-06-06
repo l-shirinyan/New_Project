@@ -61,7 +61,7 @@
                 </div>
               </div>
             </div>
-            <div class="d-flex justify-end mt-14 mr-1">
+            <!-- <div class="d-flex justify-end mt-14 mr-1">
               <a
                 class="d-flex justify-between align-i-center"
                 href="mailto: GuestLaw@outlook.com"
@@ -76,7 +76,7 @@
                   <span> GuestLaw@outlook.com </span>
                 </div>
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="footer__divider w-100"></div>

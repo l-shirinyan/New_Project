@@ -29,7 +29,7 @@
             <span> Locations </span>
           </a>
         </div>
-        <a
+        <!-- <a
           href="tel:(859) 227-0972"
           class="header__phone-box d-flex align-i-center cursor-pointer"
         >
@@ -40,10 +40,10 @@
             src="../assets/images/icons/phone.svg"
             alt=""
           />
-          <div @click="call()" class="header__phone pl-5 font-6">
+          <div class="header__phone pl-5 font-6">
             <span>(859) 227-0972</span>
           </div>
-        </a>
+        </a> -->
         <div
           @click="openMenu()"
           class="responsive-menu mt-1 cursor-pointer d-none"
@@ -302,9 +302,6 @@ export default {
     SplideSlide,
   },
   methods: {
-    call() {
-      console.log("(859) 227-0972");
-    },
     openMenu() {
       this.showMenu = true;
     },
