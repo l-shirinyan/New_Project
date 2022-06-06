@@ -4,19 +4,22 @@
       <div class="real-estate__text">
         <div class="mt-8">
           <span>
-            Guest Law Office represents buyers, sellers, property owners, and tenants in a variety of real estate 
-            transactions and disputes. Our most frequently handled 
+            Guest Law Office represents buyers, sellers, property owners, and
+            tenants in a variety of real estate transactions and disputes. Our
+            most frequently handled
           </span>
-          </div>
-          <div class="mt-8">
-            <span class="font-6">
-              Real Estate Law issues include:
-            </span>
-          </div>
+        </div>
+        <div class="mt-8">
+          <span class="font-6"> Real Estate Law issues include: </span>
+        </div>
       </div>
       <div class="real-estate__list">
         <ul class="ml-5 mt-4">
-          <li class="real-estate__text mb-1" v-for="(item, i) in items" :key="i">
+          <li
+            class="real-estate__text mb-1"
+            v-for="(item, i) in items"
+            :key="i"
+          >
             {{ item }}
           </li>
         </ul>

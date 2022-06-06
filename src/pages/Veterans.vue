@@ -4,27 +4,33 @@
       <div class="veterans__text">
         <div class="mt-8">
           <span>
-            Our firm appreciates and understands the unique challenges of service in the armed forces. The founding 
-            partner or our firm, J. Dion Guest proudly served in the Gulf War as a United States Marine tanker. It is our 
-            honor and privilege to represent the military community in all areas of our practice. We can provide advice 
-            and assistance to veterans, service members, and dependents through all phases of the claim and appeal 
-            process. Additionally, we will ensure that our clients are informed and understand all the entitlements and 
-            benefits that they may be entitled to receive, some of which they may be unaware. 
+            Our firm appreciates and understands the unique challenges of
+            service in the armed forces. The founding partner or our firm, J.
+            Dion Guest proudly served in the Gulf War as a United States Marine
+            tanker. It is our honor and privilege to represent the military
+            community in all areas of our practice. We can provide advice and
+            assistance to veterans, service members, and dependents through all
+            phases of the claim and appeal process. Additionally, we will ensure
+            that our clients are informed and understand all the entitlements
+            and benefits that they may be entitled to receive, some of which
+            they may be unaware.
           </span>
-          </div>
-          <div class="mt-8">
-            <span>
-              The process, however, is not an easy one. The application process for Veterans’ Benefits is extremely 
-              complex and requires a great deal of supporting documentation in order for a claim to be successful. 
-              Furthermore, many people are not aware that they may qualify for benefits under various VA programs 
-              through their own service or that of a spouse.
-            </span>
-          </div>
-          <div class="mt-8">
-            <span class="font-6">
-              The major benefits provided by the VA include:
-            </span>
-          </div>
+        </div>
+        <div class="mt-8">
+          <span>
+            The process, however, is not an easy one. The application process
+            for Veterans’ Benefits is extremely complex and requires a great
+            deal of supporting documentation in order for a claim to be
+            successful. Furthermore, many people are not aware that they may
+            qualify for benefits under various VA programs through their own
+            service or that of a spouse.
+          </span>
+        </div>
+        <div class="mt-8">
+          <span class="font-6">
+            The major benefits provided by the VA include:
+          </span>
+        </div>
       </div>
       <div class="veterans__list">
         <ul class="ml-5 mt-4">
@@ -35,9 +41,11 @@
       </div>
       <div class="mt-8">
         <span>
-            If you live in Kentucky and served in the military, you might be entitled to benefits including medical 
-            benefits from the U.S. Department of Veterans Affairs (VA). The VA provides benefits to disabled veterans 
-            whose medical conditions resulted from their military service.
+          If you live in Kentucky and served in the military, you might be
+          entitled to benefits including medical benefits from the U.S.
+          Department of Veterans Affairs (VA). The VA provides benefits to
+          disabled veterans whose medical conditions resulted from their
+          military service.
         </span>
       </div>
     </div>

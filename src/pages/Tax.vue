@@ -4,37 +4,42 @@
       <div class="veterans__text">
         <div class="mt-8">
           <span>
-            When you receive notification of an audit from the IRS, your first instinct may be to panic. An audit is a 
-            frightening situation; if it does not go in your favor, you could be facing tax penalties, interest payments 
-            and criminal charges. The thought of it can cause many sleepless nights. That’s where an IRS tax attorney 
-            can help.
+            When you receive notification of an audit from the IRS, your first
+            instinct may be to panic. An audit is a frightening situation; if it
+            does not go in your favor, you could be facing tax penalties,
+            interest payments and criminal charges. The thought of it can cause
+            many sleepless nights. That’s where an IRS tax attorney can help.
           </span>
-          </div>
-          <div class="mt-8">
-            <span>
-              When faced with an audit, individuals are often tempted to agree to whatever the IRS asks, usually to make 
-              the situation disappear. This will rarely work out in the taxpayer’s favor.
-            </span>
-          </div>
-          <div class="mt-8">
-            <span>
-              Individuals should first consult with a tax audit lawyer. A skilled IRS tax attorney specializing in audits 
-              provides advice to taxpayers regarding their rights, ensuring the IRS does not take advantage of fear and 
-               lack of knowledge about the intricacies of federal tax laws.
-            </span>
-          </div>
-          <div class="mt-8">
-            <span>
-              IRS tax audit attorneys will study the financial and tax situation of their clients and utilize it to create a 
-              defense strategy. The defense in use should be different for an individual taxpayer versus a business 
-              taxpayer, for example.
-            </span>
-          </div>
-          <div class="mt-8">
-            <span class="font-6">
-              Our law office can help you in the following areas:
-            </span>
-          </div>
+        </div>
+        <div class="mt-8">
+          <span>
+            When faced with an audit, individuals are often tempted to agree to
+            whatever the IRS asks, usually to make the situation disappear. This
+            will rarely work out in the taxpayer’s favor.
+          </span>
+        </div>
+        <div class="mt-8">
+          <span>
+            Individuals should first consult with a tax audit lawyer. A skilled
+            IRS tax attorney specializing in audits provides advice to taxpayers
+            regarding their rights, ensuring the IRS does not take advantage of
+            fear and lack of knowledge about the intricacies of federal tax
+            laws.
+          </span>
+        </div>
+        <div class="mt-8">
+          <span>
+            IRS tax audit attorneys will study the financial and tax situation
+            of their clients and utilize it to create a defense strategy. The
+            defense in use should be different for an individual taxpayer versus
+            a business taxpayer, for example.
+          </span>
+        </div>
+        <div class="mt-8">
+          <span class="font-6">
+            Our law office can help you in the following areas:
+          </span>
+        </div>
       </div>
       <div class="veterans__list">
         <ul class="ml-5 mt-4">

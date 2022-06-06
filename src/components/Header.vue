@@ -26,9 +26,7 @@
             class="header__menu-item cursor-pointer font-6 px-4"
             @click="goToLocations"
           >
-            <span>
-              Locations
-            </span>
+            <span> Locations </span>
           </a>
         </div>
         <a
@@ -92,11 +90,11 @@
                   </span>
                 </a>
               </div>
-              <a class="header__menu-item responsive-item cursor-pointer font-6 px-4"
-                  @click="goToLocations">
-                <span>
-                  Locations
-                </span>
+              <a
+                class="header__menu-item responsive-item cursor-pointer font-6 px-4"
+                @click="goToLocations"
+              >
+                <span> Locations </span>
               </a>
               <div class="divider mt-4"></div>
               <a
@@ -121,31 +119,30 @@
       </div>
     </div>
     <div v-if="$route.path === '/'" id="home" class="header__slider relative">
-        <splide
-          :options="{ rewind: true, height: 700 }"
-          :isCarousel="true"  
-          data-splide='{"type":"loop"}'   
-        >
-          <splide-slide v-for="(item, index) of splideItems" :key="index">
-            <div class="img-box-1 absolute w-100 h-100"></div>
-            <img :src="item.src" alt="" />
-            <div class="absolute w-100 h-100 gradient-box"></div>
-              <div class="header__slider-box absolute">
-              <div class="header__slider-box-title font-7">
-                <span>GUEST LAW OFFICE</span>
-              </div>
-              <div class="header__slider-box-subtitle font-7">
-                <span>{{item.text}}</span>
-              </div>
-              <div>
-                <button class="header__slider-box-btn cursor-pointer mt-7 font-7">
-                  Learn More
-                </button>
-              </div>
+      <splide
+        :options="{ rewind: true, height: 700, autoplay: true }"
+        :isCarousel="true"
+        data-splide='{"type":"loop"}'
+      >
+        <splide-slide v-for="(item, index) of splideItems" :key="index">
+          <div class="img-box-1 absolute w-100 h-100"></div>
+          <img :src="item.src" alt="" />
+          <div class="absolute w-100 h-100 gradient-box"></div>
+          <div class="header__slider-box absolute">
+            <div class="header__slider-box-title font-7">
+              <span>GUEST LAW OFFICE</span>
             </div>
-          </splide-slide>
-
-        </splide>
+            <div class="header__slider-box-subtitle font-7">
+              <span>{{ item.text }}</span>
+            </div>
+            <div>
+              <button class="header__slider-box-btn cursor-pointer mt-7 font-7">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </splide-slide>
+      </splide>
     </div>
     <div
       class="relative header__slider estate"
@@ -252,8 +249,7 @@
       id="/locations"
     >
       <div class="absolute w-100 h-100 gradient-box-1 locations"></div>
-      <div class="absolute slider-text-box mr-5 font-7">
-      </div>
+      <div class="absolute slider-text-box mr-5 font-7"></div>
     </div>
   </div>
 </template>
@@ -276,12 +272,12 @@ const MENU_ITEMS = [
 
 const SPLIDE_ITEMS = [
   {
-    src: require("../assets/images/slider-images/slider.svg"),
-    text: "Louisville",
-  },
-  {
     src: require("../assets/images/slider-images/slider-1.svg"),
     text: "Lexington Kentucky",
+  },
+  {
+    src: require("../assets/images/slider-images/slider.svg"),
+    text: "Louisville",
   },
   {
     src: require("../assets/images/slider-images/slider-2.svg"),
@@ -323,8 +319,8 @@ export default {
     },
     goToLocations() {
       this.showMenu = false;
-      if (this.$route.path !== '/locations') {
-        this.$router.push('/locations');
+      if (this.$route.path !== "/locations") {
+        this.$router.push("/locations");
       }
     },
     goToHome() {
@@ -396,7 +392,7 @@ export default {
   }
   &__slider-locations {
     height: 1120px;
-    overflow: hidden; 
+    overflow: hidden;
   }
   &__slider-box {
     z-index: 10000;
@@ -547,7 +543,7 @@ export default {
 
     &__slider-locations {
       height: 1000px;
-      overflow: hidden; 
+      overflow: hidden;
     }
     &__slider-box {
       top: 290px;
@@ -564,7 +560,7 @@ export default {
   .header {
     &__slider-locations {
       height: 850px;
-      overflow: hidden; 
+      overflow: hidden;
     }
     &__menu {
       display: none !important;
@@ -581,7 +577,7 @@ export default {
   .header {
     &__slider-locations {
       height: 700px;
-      overflow: hidden; 
+      overflow: hidden;
     }
     &__menu {
       display: none !important;

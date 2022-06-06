@@ -59,14 +59,24 @@
                     {{ location.text2 }}
                   </div>
                 </div>
-              </div>              
+              </div>
             </div>
-            <div class="footer__locations-item-text d-flex justify-end mt-14 mr-1">
-              <a href="mailto: GuestLaw@outlook.com"
-                 style="color: white; text-decoration: none">
-                GuestLaw@outlook.com
+            <div class="d-flex justify-end mt-14 mr-1">
+              <a
+                class="d-flex justify-between align-i-center"
+                href="mailto: GuestLaw@outlook.com"
+              >
+                <img
+                  width="19.9px"
+                  height="19.9px"
+                  src="../assets/images/icons/mail.svg"
+                  alt=""
+                />
+                <div class="footer__mail-box ml-2">
+                  <span> GuestLaw@outlook.com </span>
+                </div>
               </a>
-            </div>            
+            </div>
           </div>
         </div>
         <div class="footer__divider w-100"></div>
@@ -150,6 +160,13 @@ export default {
     font-size: 13px;
     line-height: 1.38;
     letter-spacing: 0.59px;
+  }
+  &__mail-box {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.35;
+    letter-spacing: 0.9px;
   }
 }
 .hidden-title {
